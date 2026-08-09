@@ -57,7 +57,7 @@ Per-rule firing rates: H1 = 1,136 (2.0%) · H2 = 6,696 (11.6%) · H3 = 3,270 (5.
 
 If the annotators had merely recovered the heuristic rules, the strong candidates of this file (`candidate_label = 1`) would coincide with the final bot labels. In practice they diverge substantially:
 
-| Game | Strong heuristic candidates (score ≥ 3, this file) | Final annotator-confirmed bots (paper, Table 4) |
+| Game | heuristic candidates (score ≥ 3) | Final annotator-confirmed bots |
 |---|---|---|
 | Alien Worlds | **21** | **3,440** |
 | DeFi Kingdoms | **756** | **107** |
