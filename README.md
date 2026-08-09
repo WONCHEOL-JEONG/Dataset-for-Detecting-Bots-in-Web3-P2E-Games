@@ -25,7 +25,8 @@ Ground truth was created in two stages. Stage 1: Heuristic, Stage 2: Annotators.
 3. **Scoring.** `heuristic_score` = number of satisfied rules (0–4). `candidate_label` is derived deterministically from the score: `0` (score 0), `-1` (score 1–2, ambiguous zone), `1` (score ≥ 3, strong candidate).
 4. **Role.** The scores and labels are passed to the Stage-2 annotators **purely as reference material**, and every account proceeds to annotation regardless of its score or label.
 
-### Stage 2 — Independent annotator validation (annotator 1 labeling, annotator 2 labeling → discussion → final ground truth)
+### Stage 2 — Independent annotator validation
+### (annotator 1 labeling, annotator 2 labeling → discussion → final ground truth)
 
 Two annotators independently labeled each account by examining its **raw transaction history and full 32-feature behavioral profile**, with the Stage-1 scores and labels visible only as supporting reference; disagreements were resolved by discussion until consensus. A human may legitimately be extreme on one dimension (e.g., a hardcore player's near-24/7 activity) but not on several at once, whereas a bot cannot normalize all dimensions without forfeiting the throughput that makes automation profitable (paper §3.1) — a bot verdict therefore requires **mechanically extreme behavior on multiple independent dimensions**.
 
