@@ -44,12 +44,12 @@ One CSV, one row per account (57,879 rows × 8 columns), covering the full popul
 
 ### Heuristic statistics
 
-| Quantity | Value | Paper reference |
-|---|---|---|
-| Score 0 (`candidate_label = 0`) | 50,229 (86.8%) | §3.1: "86.8% … satisfy none" |
-| Ambiguous 1–2-rule zone (`-1`) | 6,855 (11.8%) | §3.1: "11.8% in the ambiguous 1–2-rule zone" |
-| Score ≥ 3 (`candidate_label = 1`) | 795 (1.4%) | §3.1: "1.4% satisfy at least three" |
-| Per-game account counts | 54,298 / 3,257 / 324 | Table 4 |
+| Quantity | Value |
+|---|---|
+| Score 0 (`candidate_label = 0`) | 50,229 (86.8%) |
+| Ambiguous 1–2-rule zone (`-1`) | 6,855 (11.8%) |
+| Score ≥ 3 (`candidate_label = 1`) | 795 (1.4%) |
+| Per-game account counts | 54,298 / 3,257 / 324 |
 
 Per-rule firing rates: H1 = 1,136 (2.0%) · H2 = 6,696 (11.6%) · H3 = 3,270 (5.6%) · H4 = 2,418 (4.2%).
 
