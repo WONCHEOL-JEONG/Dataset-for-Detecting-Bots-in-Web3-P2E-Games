@@ -68,7 +68,7 @@ If the annotators had merely recovered the heuristic rules, the strong candidate
 This asymmetry is direct, quantitative evidence for the paper's circularity defense (§4.4, *Addressing Potential Circularity*): the ground truth reflects annotator judgment over raw on-chain behavior rather than a simple recovery of the heuristic rules.
 
 ## Citation
-
+If you use this dataset in your research, please cite the following paper:
 Update soon
 
 ```bibtex
