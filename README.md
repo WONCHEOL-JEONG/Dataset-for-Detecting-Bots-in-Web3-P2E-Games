@@ -69,15 +69,26 @@ If the annotators had merely recovered the heuristic rules, the strong candidate
 This asymmetry is direct, quantitative evidence for the paper's circularity defense (§4.4, *Addressing Potential Circularity*): the ground truth reflects annotator judgment over raw on-chain behavior rather than a simple recovery of the heuristic rules.
 
 ## Citation
-If you use this dataset in your research, please cite the following paper:
-Update soon
+
+If you find this dataset useful, please cite the following paper:
 
 ```bibtex
-@inproceedings{00,
-  title     = {00},
-  author    = {Anonymous},
-  booktitle = {00},
-  year      = {2026},
-  note      = {00}
+@InProceedings{jeong_et_al:LIPIcs.AFT.2026.32,
+  author =	{Jeong, Woncheol and Choi, Sohee and Yoon, Jiwon},
+  title =	{{Who Plays to Earn? Detecting Bots in Web3 Games via On-Chain Transactions Analysis}},
+  booktitle =	{8th Conference on Advances in Financial Technologies (AFT 2026)},
+  pages =	{32:1--32:22},
+  series =	{Leibniz International Proceedings in Informatics (LIPIcs)},
+  ISBN =	{978-3-95977-451-2},
+  ISSN =	{1868-8969},
+  year =	{2026},
+  volume =	{395},
+  editor =	{Kiayias, Aggelos and Kyropoulou, Maria},
+  publisher =	{Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik},
+  address =	{Dagstuhl, Germany},
+  URL =		{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.AFT.2026.32},
+  URN =		{urn:nbn:de:0030-drops-278867},
+  doi =		{10.4230/LIPIcs.AFT.2026.32},
+  annote =	{Keywords: Bot detection, Web3 gaming, Play-to-Earn, on-chain behavioral analysis, transaction graph analysis, heterogeneous graph neural network}
 }
 ```
